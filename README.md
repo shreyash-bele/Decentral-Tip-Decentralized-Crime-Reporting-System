@@ -1,50 +1,63 @@
-# DecentralTip: A Decentralized Crime Reporting Platform
+# FinGuru: Financial Literacy Platform
 
-DecentralTip is a secure, anonymous platform for reporting criminal activities. Built using blockchain technology, it enhances transparency, trust, and accountability in crime reporting while safeguarding user privacy. The system integrates robust security measures, a user-friendly interface, and advanced features to assist law enforcement agencies in effective crime detection and prevention.
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange)
+
+FinGuru is an interactive and gamified financial literacy platform designed to help users manage their personal finances. With features like expense tracking, budget planning, financial quizzes, and a chatbot for personalized advice, FinGuru offers a comprehensive approach to learning and improving financial management.
 
 ---
 
 ## 🚀 Features
 
-- **Decentralized Blockchain Architecture**: Ensures data immutability and eliminates centralized vulnerabilities.
-- **Anonymous Reporting**: Users can securely report crimes without revealing their identity.
-- **Integration with Aadhaar & Ethereum Wallets**: Ensures genuine user participation with robust authentication mechanisms.
-- **Cognitive Assessments & CAPTCHA**: Filters out unreliable tips, improving data quality and reducing spam.
-- **Token Staking**: Incentivizes genuine reporting by returning staked tokens for verified tips.
-- **Map-Based Analysis**: Visualizes crime hotspots to assist in proactive policing.
-- **Smart Contracts**: Automates processes, reducing human intervention and ensuring tamper-proof reporting.
-- **User-Friendly Interface**: Developed with React for seamless navigation and usability.
+- **Expense Tracking**: Track monthly expenses with detailed categories.
+- **Budget Planning**: Set and manage monthly budgets.
+- **Gamified Finance Quiz**: Learn through interactive quizzes with real-time feedback.
+- **Story-Based Learning**: Financial concepts explained through real-life stories and examples.
+- **Personalized Financial Advice**: A chatbot that provides tailored financial advice based on user data.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js
-- **Backend**: Blockchain (Ethereum), Smart Contracts
-- **Database**: Decentralized storage with encrypted data
-- **Security**: AES Encryption, CAPTCHA
-- **Integration**: Aadhaar Authentication, Ethereum Wallets
+- **Frontend**: React.js, Redux
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT, OAuth
+- **Security**: bcrypt, HTTPS
+- **Integration**: Open Exchange Rates API for financial data
 
 ---
 
 ## 📈 System Architecture
 
 1. **User Registration & Authentication**:
-   - Random User ID generation.
-   - Aadhaar-based authentication.
-   - Ethereum wallet linking.
+   - JWT-based authentication for secure user sessions.
+   - OAuth integration for easy sign-up via Google or Facebook.
 
-2. **Tip Submission**:
-   - Encrypted reporting for enhanced privacy.
-   - User-staked tokens for credibility verification.
+2. **Expense and Budget Management**:
+   - User inputs for tracking income and expenses.
+   - Budget recommendations based on user financial data.
 
-3. **Storage**:
-   - Encrypted tips stored on the blockchain.
-   - Immutable data for maximum reliability.
+3. **Learning and Gamification**:
+   - Interactive quizzes to improve financial knowledge.
+   - Real-time feedback to engage users.
 
-4. **Law Enforcement Integration**:
-   - Secure decryption for authorized personnel.
-   - Real-time crime visualization for effective response.
+4. **Personalized Financial Chatbot**:
+   - AI-powered chatbot to offer advice on savings, investments, and budgeting.
+
+---
+
+## 📸 Screenshots
+
+
+![Dashboard Screenshot](https://github.com/user-attachments/assets/dashboard-screenshot.png)
+
+
+![Budget Planning Screenshot](https://github.com/user-attachments/assets/budget-planning-screenshot.png)
+
+
+![Quiz Screenshot](https://github.com/user-attachments/assets/quiz-screenshot.png)
 
 ---
 
@@ -52,5 +65,5 @@ DecentralTip is a secure, anonymous platform for reporting criminal activities. 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/DecentralTip.git
-   cd DecentralTip
+   git clone https://github.com/yourusername/FinGuru.git
+   cd FinGuru
